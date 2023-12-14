@@ -1,0 +1,69 @@
+//======================================================================
+//Datafile Direation
+//Dir: ./sample/628ieee9/ieee-9.DAT      
+//Dir: ./sample/628ieee30/ieee-30.DAT      
+//Dir: ./sample/628ieee39/ieee-39.DAT      
+//Dir: ./sample/628ieee39/ieee-39.noq.DAT
+Dir: ./sample/628ieee39/ieee-39.origin.DAT
+//Dir: ./sample/628ieee39/ieee-39.origin.solar.DAT
+//Dir: ./sample/628ieee39/ieee-39.origin.old.DAT
+//Dir: ./sample/628ieee39/ieee-39.neural.DAT
+//Dir: E:/000FatalCriticalData/05postdoc/01workspace/00Cpp/PSOPS-Console-QT-V/sample/628ieee39/tmp1.DAT      
+//Dir: ./sample/628ieee43/ieee-43.DAT      
+//Dir: ./sample/628ieee57/ieee-57.DAT      
+//Dir: ./sample/628ieee118/ieee-118.DAT      
+//Dir: /archive/pythonPS/gym_psops/envs/psops/sample/628ieee118/ieee-118.DAT
+//Dir: ./sample/628ieee162/ieee-162.DAT      
+//Dir: ./sample/629IEEE300/IEEE300.DAT
+//Dir: ./sample/628IEEE2383/IEEE2383.dat  
+//======================================================================
+//Data Version: PSASP628, PSASP629, BPA4
+Ver: PSASP628
+//Ver: PSASP629
+//======================================================================
+//have Power Flow Result as initiation: yes, no
+PFR: no
+//PFR: yes
+//======================================================================
+//Time when Emergency Control measures exectuted
+ECT: 0.30
+//======================================================================
+//Node Ordering Method: Tinney-1, Tinney-2, Tinney-3, MDMNP, AMDMNP-h, AMDMNSP-h
+ORD: MDMNP
+//======================================================================
+//Program Running Location
+//home, lab, server
+PRL: lab
+//PRL: server
+//======================================================================
+//Multi-thread Mapping: Serial, OpenMP-n, MPI-n, MPI*OpenMP-n*m
+MTM: OpenMP-4
+//MTM: MPI-4
+//MTM: MPIxOpenMP-2x4
+//======================================================================
+//Function Selection
+//---------Data transmission, DT-------------------------------------------------------------------
+//---------Power flow, PF--------------------------------------------------------------------------
+//0-Basic Power Flow
+//---------Transient stability, TS-------------------------------------------------------------------
+//0-Without SV, 1-Sparse, 2-Multi-Path, 3-Full Inverse, 4-factorized Inverse, 
+//11-N-1 Scanning, 12-N-1 IST ST Comparison,
+//---------Transient stability control, TSC---------------------------------------------------------
+//0-N-1 Scanning,
+//1-Gradient Calculation Perturbation, 2-Gradient Calculation CoEquation,
+//3-Fast Decision-making Bi,
+//---------Stability Constrained OPF, SCOPF-------------------------------------------------------
+//0-random search
+//---------Parallel computing, PC-----------------------------------------------------------------
+//0-BBDF PF, 1-BBDFP PF,
+//2-BBDF TS Without SV, 3-BBDF TS SV, 4-BBDF TS MP,  5-BBDF TS full inverse,
+//6-BBDFP TS Without SV, 7-BBDFP TS SV, 8-BBDFP TS MP, 9-BBDFP TS full inverse,
+//10-BBDF TSC Without SV, 11-BBDF TSC SV, 12-BBDF TSC MP
+//---------Fully parallel computing, FPC----------------------------------------------------------
+//0-FBBDF PF, 1-FBBDF TS Without SV, 2-FBBDF TS SV, 3-FBBDF TS MP,
+//---------Test Function, TF----------------------------------------------------------
+//0-Barrier Time cost, 
+FUN: TS-1
+//======================================================================
+//Supplementary Data(N-1 fault time;)
+SMD: 0.10
