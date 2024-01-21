@@ -42,4 +42,6 @@ Code generation demo is in <u>**demo_3_code_generation.ipynb**</u>.
 You can ask LLM to generate the code you need. 
 
 # Reference
-[1] 丁俐夫, 陈颖, 肖谭南, 黄少伟, 沈沉. 大语言模型辅助的新型电力系统业务延展. 已投稿
+[1] 丁俐夫, 陈颖, **肖谭南**, 黄少伟, 沈沉. 基于大语言模型的新型电力系统生成式应用模式初探, 电力系统自动化, 审稿中. 
+
+  L. Ding, Y. Chen, **T. Xiao**, S. Huang, C. Shen, “A Novel Generative Application Mode for Power Systems Based on Large Language Models,” *Automation of Electric Power Systems*, Under Review. (in Chinese)
