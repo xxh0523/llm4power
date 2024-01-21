@@ -1,5 +1,5 @@
 # llm4power
-llm4power is developed based on Azure OpenAI API, [CloudPSS SDK](https://docs.cloudpss.net/sdknew), and [Py_PSOPS](https://github.com/xxh0523/Py_PSOPS).
+llm4power is developed based on Azure OpenAI API, [CloudPSS SDK](https://docs.cloudpss.net/sdknew).
 
 In this repository, 3 demos are provided. 
 
@@ -44,4 +44,6 @@ You can ask LLM to generate the code you need.
 # Reference
 [1] 丁俐夫, 陈颖, **肖谭南**, 黄少伟, 沈沉. 基于大语言模型的新型电力系统生成式应用模式初探, 电力系统自动化, 审稿中. 
 
-  L. Ding, Y. Chen, **T. Xiao**, S. Huang, C. Shen, “A Novel Generative Application Mode for Power Systems Based on Large Language Models,” *Automation of Electric Power Systems*, Under Review. (in Chinese)
+L. Ding, Y. Chen, **T. Xiao**, S. Huang, C. Shen, “A Novel Generative Application Mode for Power Systems Based on Large Language Models,” *Automation of Electric Power Systems*, Under Review. (in Chinese)
+
+[2] Y. Song, Y. Chen, Z. Yu, S. Huang, and C. Shen, “CloudPSS: A high-performance power system simulator based on cloud computing,” Energy Reports, vol. 6, pp. 1611–1618, Dec. 2020, doi: [10.1016/j.egyr.2020.12.028](https://www.sciencedirect.com/science/article/pii/S2352484720317297).
